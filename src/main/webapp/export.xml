@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<streams>
+<stream>
+<streamname value="Str1"></streamname>
+<streamsource value="/Users/sarthakdandriyal/Desktop/dmproject/src/main/java/com/example/erp/controller/demo.csv"></streamsource>
+<window><windowsize value="5"></windowsize><windowvelocity value="2"></windowvelocity><windowtype value="Sliding Window"></windowtype></window>
+<properties><property><name value="Date"></name><type value="varchar(255)"></type></property><property><name value="a1"></name><type value="float"></type></property><property><name value="a2"></name><type value="float"></type></property><property><name value="a3"></name><type value="float"></type></property><property><name value="a4"></name><type value="float"></type></property><property><name value="a5"></name><type value="float"></type></property><property><name value="a6"></name><type value="int"></type></property></properties>
+<continous_queries><query value="select * from Str1"></query><query value="select count(*) from Str1"></query><query value="select a2 from Str1 where a1>120"></query></continous_queries>
+</stream>
+</streams>
